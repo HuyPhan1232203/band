@@ -1,0 +1,408 @@
+/* p{color:antiquewhite} */
+*  {
+padding:0;
+margin:0;
+box-sizing: border-box;}*
+/* {font-family: Arial, Helvetica, sans-serif;} */
+#main{width:100%;
+    
+    
+
+}
+/* common */
+
+.white-font{color:#fff !important;}
+.row{ 
+    margin-left: -8px;
+    margin-right: 8px;}
+    .row::after{
+        content:"";
+        display: block;
+        clear:both;
+    }
+.col{ 
+    float:left; 
+    padding-left: 8px;
+    padding-right: 8px;}
+.col-full{width:100%;}
+.col-sec{width:50% ;}
+.col-third{width:33.33333%}
+.text-center{text-align: center !important;}
+.mt-16{margin-top: 16px;}
+/* main */
+#header{
+    width:100%;
+    height:47px;
+    background-color: black;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    overflow: hidden;
+    z-index: 1;
+}
+    #nav >li { display:inline-block; }
+    #nav li { 
+        position: relative;}
+    #nav,.subnav { list-style-type: none;} 
+    #nav li:hover .subnav {display:block;}
+    #nav .subnav{position: absolute;
+        background-color: #fff;
+        box-shadow:0 0 16px rgba(0, 0, 0, 0.3);
+        display:none;
+        min-width: 160px;} 
+    #nav >li> a{color:#fff;
+        line-height:  46.5px;
+        padding:0 24px;
+        /* display:inline-block; */
+        text-transform: uppercase;}
+    #nav li a {
+        text-decoration: none;
+        line-height:  46.5px;
+        padding:0 17px;
+        display:block; }
+    #nav .subnav a{color:#000;
+        line-height:38.5px;
+        padding:0 10px;
+        
+    }
+    #nav .nav-arrow-down{font-size:14px}
+    #nav{display:inline-block}
+    
+
+    #nav >li:hover >a{
+        color: #000;
+        background-color: #ccc;}
+    #nav .subnav li:hover a {
+        color: #000;
+        background-color: #ccc;
+    }
+    /* #nav .subnav li{ width:100%}  */
+
+    #header .menu-btn,
+    #header .search-btn{float:right;
+    cursor: pointer;
+    padding:0 21px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+    #header .menu-icon,
+    #header .search-icon {
+        font-size: 20px;
+        color:#fff;
+        display:inline-block;
+        line-height: 46.5px;
+    }
+    #header .menu-btn:hover{color:#000;
+    background-color: #ccc;}
+    #header .search-btn:hover{color:#fff;
+        background-color:red;}
+    #slider{
+       padding-top:50%;
+        background:url('../img/slider/slider1.jpeg') top center /cover no-repeat;;
+        position:relative;
+        /* padđing-top:46.5px; */
+        margin-top:46.5px;
+
+    }  
+    #slider .text-content{
+        position:absolute;
+        bottom:48px;
+        width:100%;
+        text-align: center;
+        color:#fff;
+
+    }  
+    #slider .text-header{font-size:24px;
+        margin-bottom:25px;
+        font-weight:500;} 
+    #slider .text-description{font-size:16px;
+        text-shadow:0 0 1px BLACK;}
+
+#content{
+    line-height:1.5;
+    
+}
+#content .content-about{
+width:768px;
+max-width: 100%;
+/* text-align: center; */
+margin-left:auto;
+margin-right: auto;
+padding:64px 0 0 0;
+text-align: justify;
+margin-bottom: 112px;
+/* padding-left: 16px;
+padding-right: 8px; */
+padding:64px 16px 0 16px;
+}
+#content .content-header{margin:10px 0;;
+font-size:30px;
+font-weight:400;
+font-family: "Segoe UI",Arial,sans-serif;
+letter-spacing: 4px;
+text-align: center;
+position: relative;}
+#content .content-subheader{margin:25px 0 15px;
+    /* font-family: "Lato", sans-serif; */
+    text-align: center;
+    font-style: italic;
+    /* color:rgb(99, 95, 95); */
+    font-size:15px;
+    opacity: 0.6;}
+#content .content-text{ 
+     font-family: "Lato", sans-serif;  
+     font-size:15px;
+     }
+#content .member-list{overflow:hidden;}
+.row.member-list {
+    margin-bottom: -43px;
+}
+    
+#content .member-img{
+    width:153.59px;
+    /* position: absolute; */
+    padding:15px 0 32px; 
+    border-radius: 4px;}
+#content .member-name{font-size:15px;} 
+.tour-dates-main{background-color: #000;
+height:846px;}
+.tour-list li{
+    background-color: #fff;
+    border-bottom:#ddd 1px solid;
+    font-size:15px;
+    padding:8px 16px;
+    /* height: 39.5px; */
+    /* width:766px; */
+    color:#757575;}
+.tour-list{margin-top:40px;
+    list-style-type: none;
+}
+.tour-list .Sold-out{margin-left:16px;
+padding:3px 8px;
+background-color:#f44336;
+color:#fff;
+}
+.tour-list .available{float:right;
+background-color: #000;
+border-radius: 50%;
+padding:0px 8px;
+margin-right:16px;
+color:#fff;
+font-size:15px;
+}
+.november{height:38.5px!important;}
+/* width:766px;}  */
+
+
+
+.tour-posi-main{
+    overflow:hidden;
+    margin-right: -8px;
+   
+    margin-top: 16px;
+    /* margin-bottom: 10px; */
+}
+.place{
+width:100%;
+display:block;
+}
+.place:hover{opacity: 0.7;}
+.posi-item{
+    background-color: #fff;
+    font-size:15px;
+    padding:15px 16px 16px;
+}
+.name-posi{
+font-size:15px;
+font-weight:500;
+font-family:"Lato", sans-serif;
+}
+.tour-date{
+margin-top: 15px;
+color:#757575;
+}
+.tour-des{
+margin: 15px 0;
+}
+.posi-buy-ticket:hover{background-color: #ccc;
+    color:#000;
+    cursor: pointer;
+
+}
+.posi-buy-ticket{color:#fff;
+text-decoration: none;
+background-color:#000;
+padding:16px;
+border:none;
+}
+.modal{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    display: none;
+    align-items: center; 
+    justify-content: center;
+    z-index: 2;}
+.modal.open{display: flex;}
+
+.modal-container{
+width:900px;
+background-color: #fff;
+min-height:472.3px;
+position: relative;
+top:-150px;
+max-width: calc(100% - 50px);
+animation: modalappear ease 0.5s;
+}
+
+
+.modal-close{
+/* background-color: #009688; */
+position: absolute;
+right:0;
+top:0;
+padding:14px;
+color:#fff;
+
+}
+.modal-close:hover{background-color: #ccc;
+color:#000;
+cursor: pointer;
+}
+
+
+/* .ti-close:hover{background-color: #ccc;
+
+} */
+
+.modal-header{
+color:#fff;
+background-color:#009688 ;
+height:130px;
+display:flex;
+align-items: center;
+justify-content: center;
+font-size:30px;
+letter-spacing: 4px;
+
+}
+
+.modal-heading-icon{
+margin-right:16px;
+}
+
+.modal-body{
+    padding:0 16px;
+    font-size:15px;
+}
+
+.modal-label{
+    display:block;
+    margin:15px 0;
+}
+
+
+
+.modal-input{
+    border: 1px solid #ccc;
+    width: 100%;
+    padding:8px;
+}
+
+
+
+#pay-tickets{   
+    width: 100%;
+    margin: 16px 0px;
+    height: 54.5px;
+    border: 1px solid #ccc;
+    background-color: #009688;
+    color: #fff;}
+.footer-modal{margin-top: 16px;
+    text-align: right;
+    padding: 16px;}
+#pay-tickets:hover{
+        background-color: #ccc;
+        color:#000;
+        cursor: pointer;
+    }
+.footer-modal a {color:#2196F3;}
+
+.contact-info{font-size: 18px;
+line-height: 1.5;}
+.contact-content{margin-top: 48px;}
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+.contact-blank .form-control{padding:11px;
+border: #ccc 1px solid;
+margin-bottom: 7px;
+width:100%;}
+.contact-blank{font-size: 15px;}
+.send-btn{float:right;
+margin:10px 16px;
+background-color: #000;
+color:#fff;
+/* width:71.3px;
+height:39px; */
+border:#000;
+padding:10px 16px;
+
+
+}
+.send-btn:hover{
+    background-color: #ccc;
+    color:#000;
+    cursor: pointer;
+}
+.maps-section img{
+   width: 100%;
+   filter: grayscale(50%);
+  
+    
+}
+
+#footer{
+padding: 64px 16px;
+text-align: center;
+font-size: 15px;
+}
+#footer .apps-icon{
+    font-size: 24px;
+    
+}
+#footer .apps-icon a {color:rgba(0,0,0,0.6);
+text-decoration: none;
+cursor:auto}
+#footer .footer-text {
+    color:rgba(0,0,0,0.6);
+    padding-top: 15px;
+    
+}
+#footer .footer-text a {
+    color:rgba(0,0,0,0.6);
+}
+/* #footer .footer-text a, */
+#footer .apps-icon a:hover {
+    color:rgba(0, 0, 0, 0.3);
+    
+}
+@keyframes modalappear{
+    from{
+        transform: translateY(-140px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+

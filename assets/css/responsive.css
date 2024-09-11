@@ -1,0 +1,105 @@
+/* tablet */
+@media (min-width:46.25em) and (max-width:63.9375em){
+    #header{overflow: visible;}
+    #header .menu-btn{display:none;}
+}
+/* tablet & Mobile */
+@media (max-width:63.9375em) {
+    #nav .subnav a {
+        padding:5px 10px;
+    }
+    .contact-info {
+        font-size: 18px;
+        line-height: 2;}
+    
+
+    .contact-blank .form-control {
+        padding: 15px;}
+        .send-btn{
+        padding: 16px 20px;}
+       
+    #footer .apps-icon {
+        font-size: 48px;
+        margin: 0 8px;}
+    #footer .apps-icon a {
+        
+        margin: 0 8px;}
+}
+
+/* PC */
+@media (min-width:64em) {
+    #header{overflow: visible;}
+    #header .menu-btn{display:none;}
+}
+/* mobile */
+@media (max-width: 46.1875em){
+    .s-col-full{
+        width:100%;
+    }
+    .send-btn{
+        width:95.58%;
+    }
+
+  #main{width:100%;}
+    #nav{display:block}
+    #nav >li {
+       display:block; }
+       #nav > li:first-child{
+        display: inline-block;
+       }
+    #header .search-btn{
+        display: none;
+   }
+   #nav .subnav{
+    position: initial;
+    background-color: #333;
+   }
+   #nav .subnav a {
+    color:#fff;
+    padding: 5px 30px;
+   }
+   .name-sepe {
+    width: 100%;
+  
+    }
+    #slider,#footer,
+    #content{
+    margin-right: -8px;
+    }
+    .member-list{
+        margin-top: 30px;
+    }
+    .member-img{
+        width: 60% !important;
+    }
+    .tour-dates-main{
+        height:auto;
+        margin-bottom:-120px;
+    }
+    .tour-posi-main{
+        padding-bottom:130px ;
+    }
+   .posi-buy-ticket{
+    width:100%;
+   }
+   .contact-blank {
+    margin-top: 32px;}
+
+   
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
